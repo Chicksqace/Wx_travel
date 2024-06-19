@@ -1,0 +1,50 @@
+<!--index.wxml-->
+<view class='carousel'> 
+        <swiper class='carousel_swiper' indicator-dots="true" indicator-color="#f4f4f4" indicator-active-color="#4eb8b8" autoplay="true" interval='2000' circular='true'>
+            <block>
+              <swiper-item bindtap='carouselClick'>
+                <image class="carouselImg" src='/images/3.jpg' mode='aspectFill'></image>
+              </swiper-item>
+            </block>
+            <block>
+              <swiper-item bindtap='carouselClick'>
+                <image class="carouselImg" src='/images/2.jpg' mode='aspectFill'></image>
+              </swiper-item>
+            </block>
+            <block>
+              <swiper-item bindtap='carouselClick'>
+                <image class="carouselImg" src='/images/1.jpg' mode='aspectFill'></image>
+              </swiper-item>
+            </block>
+        </swiper>
+    </view>
+<view class="container">
+  <view class="container-item-group">
+    <navigator url="/pages/list/list?id=1">
+      <view class="container-item-bg">
+        <text class="container-item-title">美丽大草原</text>
+          <text class="container-item-body">旅游让人放松并心情愉快</text>
+      </view>
+      <image src="/images/1.jpg" mode="widthFix"></image>
+    </navigator>
+  </view>
+
+  <view class="container-item-group">
+    <navigator url="/pages/list/list?id=1">
+      <view class="container-item-bg">
+        <text class="container-item-title">美丽大草原</text>
+          <text class="container-item-body">旅游让人放松并心情愉快</text>
+      </view>
+      <image src="/images/2.jpg" mode="widthFix"></image>
+    </navigator>
+  </view>
+  <view class="container-item-group">
+    <navigator url="/pages/list/list?id=1">
+      <view class="container-item-bg">
+        <text class="container-item-title">美丽大草原</text>
+          <text class="container-item-body">旅游让人放松并心情愉快</text>
+      </view>
+      <image src="/images/3.jpg" mode="widthFix"></image>
+    </navigator>
+  </view>
+</view>

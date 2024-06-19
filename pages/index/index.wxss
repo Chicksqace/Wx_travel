@@ -1,0 +1,46 @@
+/**index.wxss**/
+.carousel{
+  width: 100%;
+  background-color: #f7f7f7;
+  padding:30rpx 30rpx 40rpx;
+  box-sizing: border-box;
+}
+.carousel_swiper{
+  width: 100%;
+  display: block;
+  position: relative;
+  background: #f4f4f4;
+}
+.carouselImg{
+  width: 100%;
+  height: inherit;
+}
+
+
+.container image{
+  width:100%;
+  display: block;
+  margin-bottom:20rpx;
+}
+
+.container-item-group{
+  position: relative;
+}
+.container-item-group .container-item-bg{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .1);
+  color:#fff;
+  text-align: center;
+  font-size: 26rpx;
+}
+.container-item-group .container-item-bg .container-item-title{
+  font-size: 30rpx;
+  display: block;
+  margin-top:160rpx;
+}
+.container-item-body{
+  display: block;
+  margin-top:40rpx;
+}

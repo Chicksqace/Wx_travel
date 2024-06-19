@@ -1,0 +1,25 @@
+<!--pages/list/list.wxml-->
+<view class="heder-group">
+    <view class="heder-group-bg">
+        <text class="header-title">美丽大草原</text>
+        <text class="header-body">旅游让人放松并心情愉快</text>
+    </view>
+    <image src="/images/1w.jpg" mode="widthFix"></image>
+</view>
+<view class="container">
+    <view class="item-group">
+        <image src="/images/2w.jpg" mode="widthFix"></image>
+        <text class="item-title">呼伦贝尔大草原</text>
+        <text class="item-body">呼伦贝尔大草原，呼伦贝尔大草原，呼伦贝尔大草原，呼伦贝尔大草原，呼伦贝尔大草原，呼伦贝尔大草原，</text>
+    </view>
+    <view class="item-group">
+        <image src="/images/3w.jpg" mode="widthFix"></image>
+        <text class="item-title">呼伦贝尔大草原</text>
+        <text class="item-body">呼伦贝尔大草原，呼伦贝尔大草原，呼伦贝尔大草原，呼伦贝尔大草原，呼伦贝尔大草原，呼伦贝尔大草原，</text>
+    </view>
+    <view class="item-group">
+        <image src="/images/4w.jpg" mode="widthFix"></image>
+        <text class="item-title">呼伦贝尔大草原</text>
+        <text class="item-body">呼伦贝尔大草原，呼伦贝尔大草原，呼伦贝尔大草原，呼伦贝尔大草原，呼伦贝尔大草原，呼伦贝尔大草原，</text>
+    </view>
+</view>

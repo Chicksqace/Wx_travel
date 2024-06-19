@@ -1,0 +1,49 @@
+/* pages/list/list.wxss */
+
+.heder-group image{
+    width:100%;
+}
+
+.heder-group{
+    position: relative;
+}
+
+.heder-group .heder-group-bg{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+}
+
+.heder-group-bg .header-title, .heder-group-bg .header-body{
+    font-size: 26rpx;
+    display: block;
+    text-align: center;
+    color: #fff;
+}
+.heder-group-bg .header-title{
+    margin-top:60rpx;
+}
+.heder-group-bg .header-body{
+    margin-top:24rpx;
+}
+
+.item-group{
+    color: #666;
+    margin-top: 20rpx;
+    border-bottom:2rpx solid #eee;
+    padding-bottom: 20rpx;
+}
+.item-group image{
+    width: 100%;
+}
+.item-group .item-title{
+    display: block;
+    font-size: 28rpx;
+    line-height: 36rpx;
+    margin:20rpx 0 10rpx;
+}
+.item-group .item-body{
+    font-size: 24rpx;
+    line-height: 36rpx;
+}
